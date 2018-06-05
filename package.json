@@ -1,0 +1,44 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "css-loader": "^0.28.7",
+    "express": "^4.16.2",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
+    "flux": "*",
+    "html-webpack-plugin": "^2.30.1",
+    "postcss-loader": "^2.0.9",
+    "style-loader": "^0.19.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "toastr": "^2.1.4",
+    "uglifyjs-webpack-plugin": "^1.1.4",
+    "webpack": "^3.10.0",
+    "webpack-dev-middleware": "^2.0.2",
+    "webpack-dev-server": "^2.9.7",
+    "webpack-merge": "^4.1.1"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "history": "^4.7.2",
+    "lodash": "^4.17.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}

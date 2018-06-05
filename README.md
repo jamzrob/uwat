@@ -4,7 +4,7 @@ This README would normally document whatever steps are necessary to get your app
 
 ### What is this repository for? ###
 
-* This is an iSpace project which focuses on the main website which include the front end and the back end 
+* This is an Uwat project which focuses on the main website which include the front end and the back end 
 * The front end using HTML, CSS, Javascript and React 
 * The Back end Using Golang 
 * Golang Version 1.7 
